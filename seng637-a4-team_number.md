@@ -42,7 +42,7 @@
 
 As a continuation of the previous labs, we reinforce our test suites with mutation testing using the Pitest Eclipse plugin. It helps us analyse how well our test suite is in catching bugs and how we can try to improve it by adding more test cases that would increase the mutation score by at least 10%. Additionally, we perform GUI testing using Selenium IDE to test a few different functionalities of the Shop Smart Canada website.
 
-> The test suite for the GUI testing can be found in the root directory and there are 4 files with the  `.site` extension
+> The test suite for the GUI testing can be found in the root directory and there are 4 files with the  `.side` extension
 
 # Analysis of 10 Mutants of the Range class
 
@@ -55,7 +55,7 @@ We present 10 mutants analysed for the `Range` class as follows:
 ```
 lower = lower / 2.0 + upper / 2.0
 ```
-The mutant considers the first member, `lower`, for calculation effectively ignoring the intended averaging with `upper`. This mutation alters how lower is recalculated when the condition `lower`` > ``upper` is met, which originally aims to set `lower` and `upper` to their midpoint. The survival of this mutant indicates that the test suite may not specifically verify the condition where `lower` becomes greater than `upper` after expansion and that the corrective action to average `lower` and `upper` is correctly applied. To address this, additional tests would be needed to ensure that when lower is adjusted above upper the method properly recalculates both to reflect the intended averaging operation.
+The mutant considers the first member, `lower`, for calculation effectively ignoring the intended averaging with `upper`. This mutation alters how lower is recalculated when the condition `lower > upper` is met, which originally aims to set `lower` and `upper` to their midpoint. The survival of this mutant indicates that the test suite may not specifically verify the condition where `lower` becomes greater than `upper` after expansion and that the corrective action to average `lower` and `upper` is correctly applied. To address this, additional tests would be needed to ensure that when lower is adjusted above upper the method properly recalculates both to reflect the intended averaging operation.
 
 2. **Mutation #2** (*changed conditional boundary → SURVIVED*)
 
