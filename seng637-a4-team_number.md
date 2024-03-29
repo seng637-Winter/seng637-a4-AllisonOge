@@ -24,19 +24,19 @@
 
 [A discussion of what could have been done to improve the mutation score of the test suites](#a-discussion-of-what-could-have-been-done-to-improve-the-mutation-score-of-the-test-suites)
 
-[Why do we need mutation testing? Advantages and disadvantages of mutation testing](#why-do-we-need-mutation-testing?-advantages-and-disadvantages-of-mutation-testing)
+[Why do we need mutation testing? Advantages and disadvantages of mutation testing](#why-do-we-need-mutation-testing-advantages-and-disadvantages-of-mutation-testing)
 
 [Explain your SELENUIM test case design process](#explain-your-selenuim-test-case-design-process)
 
 [Explain the use of assertions and checkpoints](#explain-the-use-of-assertions-and-checkpoints)
 
-[how did you test each functionality with different test data?](#how-did-you-test-each-functionality-with-different-test-data?)
+[how did you test each functionality with different test data?](#how-did-you-test-each-functionality-with-different-test-data)
 
-[How the teamwork/effort was divided and managed](#how-the-teamwork/effort-was-divided-and-managed)
+[How the teamwork/effort was divided and managed](#how-the-teamworkeffort-was-divided-and-managed)
 
-[Difficulties encountered, challenges overcome, and lessons learned](#difficulties-encountered,-challenges-overcome,-and-lessons-learned)
+[Difficulties encountered, challenges overcome, and lessons learned](#difficulties-encountered-challenges-overcome-and-lessons-learned)
 
-[Comments/feedback on the assignment itself](#comments/feedback-on-the-assignment-itself)
+[Comments/feedback on the assignment itself](#commentsfeedback-on-the-assignment-itself)
 
 # Introduction
 
@@ -122,13 +122,13 @@ Having analysed the mutants for the `Range` class, we proceed to discuss the mut
 
 ## Mutation Score and Statistics with original test suite
 
-![PIT orginal](media/PIT_original.png)
+![PIT orginal](media/PITest_original.png)
 
-*Mutation score of the *`Range`* and *`DataUtilities`*classes given by Pitest eclipse extension*
+*Mutation score of the `Range` and `DataUtilities` classes given by Pitest eclipse extension*
 
 The achieved mutation scores for the `Range` and `DataUtilities `in the original test suite from the previous lab as given in the figure above are 66% and 92% respectively. The mutation statistics are shown in the tables below.
 
-*Mutation statistics of the *`Range`* class*
+*Mutation statistics of the `Range` class*
 
 | Method | Survived | Killed | Total |
 |---|---|---|---|
@@ -157,7 +157,7 @@ The achieved mutation scores for the `Range` and `DataUtilities `in the original
 | `Range.toString()` | 4 | 18 | 22 |
 | **Total** | **432** | **827** | **1259** |
 
-*Mutation Statistics for the *`DataUtilties`` `*class*
+*Mutation Statistics for the `DataUtilties` class*
 
 | Methods | Survived | Killed | Total |
 |---|---|---|---|
@@ -174,13 +174,13 @@ The achieved mutation scores for the `Range` and `DataUtilities `in the original
 
 ## Mutation Score and Statistics with improved test suite
 
-![PIT improved](media/PIT_improved.png)
+![PIT improved](media/PITest_improved.png)
 
-*Mutation score of the *`Range`` `*and *`DataUtilities`` `*classes given by Pitest eclipse extension*
+*Mutation score of the `Range` and `DataUtilities` classes given by Pitest eclipse extension*
 
-With the improved test suite, we increase the mutation scores for the `Range`` `and `DataUtilities `to 75% and 93% respectively as shown in the figure above. The new mutation statistics are shown in the tables below.
+With the improved test suite, we increase the mutation scores for the `Range` and `DataUtilities` to 75% and 93% respectively as shown in the figure above. The new mutation statistics are shown in the tables below.
 
-*Mutation statistics of the *`Range`` `*class*
+*Mutation statistics of the `Range` class*
 
 | Method | Survived | Killed | Total |
 |---|---|---|---|
@@ -209,7 +209,7 @@ With the improved test suite, we increase the mutation scores for the `Range`` `
 | `Range.toString()` | 4 | 18 | 22 |
 | **Total** | **318** | **941** | **1259** |
 
-*Mutation Statistics for the *`DataUtilties`` `*class*
+*Mutation Statistics for the `DataUtilties` class*
 
 | Methods | Survived | Killed | Total |
 |---|---|---|---|
