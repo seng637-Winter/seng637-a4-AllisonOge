@@ -42,7 +42,7 @@
 
 As a continuation of the previous labs, we reinforce our test suites with mutation testing using the Pitest Eclipse plugin. It helps us analyse how well our test suite is in catching bugs and how we can try to improve it by adding more test cases that would increase the mutation score by at least 10%. Additionally, we perform GUI testing using Selenium IDE to test a few different functionalities of the Shop Smart Canada website.
 
-> The test suite for the GUI testing can be found in the root directory and there are 4 files with the  `.side` extension
+> The test suite for the GUI testing can be found in the root directory and there are 4 files with the  `.side` extension while the latest test suite for the mutation testing can be found in the `org.jfree.data.test` package of the file JFreeChart_Lab4-solution.zip
 
 # Analysis of 10 Mutants of the Range class
 
